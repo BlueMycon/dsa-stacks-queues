@@ -18,10 +18,8 @@ class Queue {
   first = null;
   last = null;
   size = 0;
-  _list = new LinkedList();;
+  _list = new LinkedList();
 
-  constructor() {
-  }
   /** enqueue(val): add new value to end of the queue. Returns undefined. */
 
   enqueue(val) {
